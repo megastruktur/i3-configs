@@ -1,0 +1,124 @@
+// vim:ts=4:sw=4:et
+{
+    // splith split container with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 1,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 967,
+                       "width": 1916,
+                       "x": 2,
+                       "y": 88
+                    },
+                    "name": "Telegram (29)",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                        "class": "^TelegramDesktop$"
+                       // "instance": "^Telegram$",
+                       // "title": "^Telegram\\ \\(29\\)$",
+                       // "transient_for": "^$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 945,
+                       "width": 1916,
+                       "x": 2,
+                       "y": 110
+                    },
+                    "name": "Skype",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                        "class": "^Skype$"
+                       // "instance": "^skype$",
+                       // "title": "^Skype$",
+                       // "transient_for": "^$",
+                       // "window_role": "^browser\\-window$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
+{
+    // splith split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1033,
+               "width": 476,
+               "x": 482,
+               "y": 22
+            },
+            "name": "Slack - Sensely",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^Slack$"
+               // "instance": "^slack$",
+               // "title": "^Slack\\ \\-\\ Sensely$",
+               // "transient_for": "^$",
+               // "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 491,
+               "width": 1920,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Inbox - p.varaksin@intetics.com - Mozilla Thunderbird",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^Thunderbird$"
+               // "instance": "^Mail$",
+               // "title": "^Inbox\\ \\-\\ p\\.varaksin\\@intetics\\.com\\ \\-\\ Mozilla\\ Thunderbird$",
+               // "transient_for": "^$",
+               // "window_role": "^3pane$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

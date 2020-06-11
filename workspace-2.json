@@ -1,0 +1,88 @@
+// vim:ts=4:sw=4:et
+{
+    // stacked split container with 4 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "stacked",
+    "percent": null,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 967,
+               "width": 1916,
+               "x": 2,
+               "y": 88
+            },
+            "name": "Telegram (22)",
+            "percent": 0.25,
+            "swallows": [
+               {
+                "class": "^TelegramDesktop$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 967,
+               "width": 1916,
+               "x": 2,
+               "y": 88
+            },
+            "name": "Slack - Sensely",
+            "percent": 0.25,
+            "swallows": [
+               {
+                "class": "^Slack$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 945,
+               "width": 1916,
+               "x": 2,
+               "y": 110
+            },
+            "name": "Skype",
+            "percent": 0.25,
+            "swallows": [
+               {
+                "class": "^Skype$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 491,
+               "width": 1920,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Inbox - p.varaksin@intetics.com - Mozilla Thunderbird",
+            "percent": 0.25,
+            "swallows": [
+               {
+                "class": "^Thunderbird$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
